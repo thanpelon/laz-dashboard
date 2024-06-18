@@ -4,9 +4,12 @@ function OfferList() {
     const [offers, setOffers] = useState([]);
 
     useEffect(() => {
-        fetch('/api/offer-list')
+        fetch('/api/offers?' + new URLSearchParams({
+            limit: 30,
+            page: 1,
+        }))
             .then(response => response.json())
-            .then(data => setOffers(data.offers));
+            .then(data => setOffers(data["data"]));
     }, []);
 
     return (

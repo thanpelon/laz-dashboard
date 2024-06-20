@@ -1,0 +1,52 @@
+.product-feed-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.product-feed-title {
+    color: #010183;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.product-feed-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-list {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.product-table th,
+.product-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.product-table th {
+    background-color: #f2f2f2;
+}
+
+.product-table td a {
+    text-decoration: none;
+    color: #007bff; /* Link color */
+}
+
+.product-table td a:hover {
+    text-decoration: underline;
+}
+
+/* Additional styles for the table rows and cells can be added as per your design */

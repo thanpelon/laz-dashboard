@@ -1,0 +1,60 @@
+.promo-link-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.promo-link-title {
+    color: #010183;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.promo-input-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.promo-input {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.promo-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #F57224;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.promo-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.promo-link-details {
+    margin-top: 20px;
+}
+
+.promo-link-details p {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.promo-link a {
+    color: #010183;
+    text-decoration: none;
+}
+
+.promo-link a:hover {
+    text-decoration: underline;
+}
+

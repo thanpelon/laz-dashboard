@@ -1,0 +1,49 @@
+/* OfferList.css */
+
+.offer-list-container {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.offer-list-title {
+    color: #010183;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.offer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.offer-table th,
+.offer-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.offer-table th {
+    background-color: #f2f2f2;
+}
+
+.loading-text,
+.empty-data-text {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.preview-link {
+    color: #F57224;
+    text-decoration: none;
+}
+
+.preview-link:hover {
+    text-decoration: underline;
+}

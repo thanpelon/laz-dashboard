@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './PromoLinkByOfferId.css'; // Make sure to import the CSS file
+import './PromoLinkByOfferId.css'; 
 
 function PromoLinkByOfferId() {
     const [offerId, setOfferId] = useState('');

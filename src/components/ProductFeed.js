@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './ProductFeed.css'; // Import CSS file for styling
+import './ProductFeed.css'; 
 
 function ProductFeed({ mmCampaignId }) {
     const [products, setProducts] = useState([]);
@@ -163,7 +163,7 @@ function ProductFeed({ mmCampaignId }) {
                                             onClick={() => handleCopyLink(productLinks[product.productId])}
                                             className="copy-link-button"
                                         >
-                                            Copy Link
+                                            Copy Tracking Link
                                         </button>
                                     </div>
                                 </div>

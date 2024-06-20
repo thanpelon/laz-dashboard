@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './TrackingLink.css'; // Make sure to import the CSS file
+import './TrackingLink.css'; 
 
 function TrackingLink({ mmCampaignId }) {
     const [productId, setProductId] = useState('');

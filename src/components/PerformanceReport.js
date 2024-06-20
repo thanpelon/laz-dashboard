@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './PerformanceReport.css'; // Make sure to import your CSS file
+import './PerformanceReport.css'; 
 
 function PerformanceReport() {
     const [reports, setReports] = useState([]);

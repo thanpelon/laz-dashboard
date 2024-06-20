@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './ProductPromotionReport.css'; // Import your CSS file
+import './ProductPromotionReport.css';
 
 function ProductPromotionReport() {
     const [reports, setReports] = useState([]);

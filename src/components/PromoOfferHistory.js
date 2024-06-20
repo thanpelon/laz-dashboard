@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './PromoOfferHistory.css'; // Import your CSS file
+import './PromoOfferHistory.css'; 
 
 function PromoOfferHistory() {
     const [offers, setOffers] = useState([]);

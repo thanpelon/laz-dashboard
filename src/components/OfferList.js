@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './OfferList.css'; // Import CSS file for styling
+import './OfferList.css'; 
 
 function OfferList() {
     const [offers, setOffers] = useState([]);
